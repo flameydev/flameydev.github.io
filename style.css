@@ -60,6 +60,29 @@ body {
     font-weight: lighter;
 }
 
+.project-grid {
+    display: grid;
+}
+.card h3{
+    color: rgb(0, 191, 255);
+    font-weight: 500;
+    margin-left: 5px;
+}
+.card a{
+    margin-left: 10px;
+}
+.card {
+    margin-top: 10px;
+    background: #181a1d;
+    border: rgb(0, 191, 255) solid 3px;
+    border-radius: 20px;
+    max-width: 500px;
+    transition: border 0.35s;
+}
+.card:hover{
+    border: rgb(0, 119, 255) solid 3px;
+}
+
 #contact {
     b {
         color: rgb(0, 119, 255);
@@ -77,4 +100,15 @@ a:hover {
 
 #meflamey {
     color: rgb(0, 68, 255);
+}
+
+button {
+    background: #0d1117;
+    border: white solid 2px;
+    border-radius: 10px;
+    color: white;
+    transition: transform 0.1s;
+}
+button:hover {
+    transform: scale(1.2);
 }
