@@ -88,6 +88,10 @@ i {
 .card a{
     margin-left: 10px;
 }
+
+.card .langs i {
+    font-size: 1.5em;
+}
 .card {
     margin-top: 10px;
     background: #181a1d;
