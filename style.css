@@ -46,13 +46,20 @@ i {
     color: white;
 
     cursor: pointer;
-    opacity: 0.8;
-
-    transition: opacity 0.2s ease;
+    opacity: 1;
 }
 
-.links img:hover {
-    opacity: 1;
+.art {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.art img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 350px;
+    height: auto;
 }
 
 #long-desc {
