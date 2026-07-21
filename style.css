@@ -135,3 +135,19 @@ a:hover {
 #meflamey {
     color: rgb(0, 68, 255);
 }
+
+#footer {
+    margin-top: 40px;
+    padding: 20px 0;
+
+    background: rgb(10, 10, 10);
+    border-top: 1px solid rgb(35, 35, 35);
+
+    color: rgb(140, 140, 140);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    
+    -webkit-user-select: none;
+    user-select: none;
+}
